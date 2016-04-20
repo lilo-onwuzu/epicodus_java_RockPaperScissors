@@ -17,4 +17,11 @@ public class RockPaperScissorsTest {
     assertEquals(expected, testRockPaperScissors.checkWinner("scissors", "paper"));
   }
 
+  @Test
+  public void checkWinner_paperBeatsRock_1() {
+    RockPaperScissors testRockPaperScissors = new RockPaperScissors();
+    Integer expected = 1;
+    assertEquals(expected, testRockPaperScissors.checkWinner("paper", "rock"));
+  }
+
 }
