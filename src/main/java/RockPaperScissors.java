@@ -7,7 +7,7 @@ public class RockPaperScissors {
     } else if (playerOneMove.toLowerCase().equals(playerTwoMove.toLowerCase())) {
       return 0;
     } else {
-      return 3;
+      return 2;
     }
   }
 }
