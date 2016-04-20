@@ -4,8 +4,12 @@ public class RockPaperScissors {
 
     if ( (playerOneMove.toLowerCase().equals("rock") && playerTwoMove.toLowerCase().equals("scissors")) || (playerOneMove.toLowerCase().equals("scissors") && playerTwoMove.toLowerCase().equals("paper")) || (playerOneMove.toLowerCase().equals("paper") && playerTwoMove.toLowerCase().equals("rock")) )  {
       return 1;
-    } else {
-      return 0;
+    // } else if (playerOneMove.toLowerCase().equals(playerTwoMove.toLowerCase())) {
+    //   return 0;
+    }
+
+    else {
+      return 2;
     }
 
   }
