@@ -1,0 +1,7 @@
+Rock beats scissors
+
+Scissors beat paper
+
+Paper beats rock
+
+Ties play again
