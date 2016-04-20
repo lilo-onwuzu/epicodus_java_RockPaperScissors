@@ -38,4 +38,10 @@ public class RockPaperScissorsTest {
     assertEquals(expected, testRockPaperScissors.checkWinner("rock", "paper"));
   }
 
+  @Test
+  public void computerMove_computerMakesVaildMove_true() {
+    RockPaperScissors testRockPaperScissors = new RockPaperScissors();
+    assertEquals(true, testRockPaperScissors.computerMove() instanceof String);
+  }
+
 }

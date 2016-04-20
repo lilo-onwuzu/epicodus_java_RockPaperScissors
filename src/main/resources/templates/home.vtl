@@ -1,0 +1,29 @@
+<h1>Indicate if you want to play against Computer or another user</h1>
+
+<form action = "/result" method="get">
+<h2>Human Player One</h2>
+<select class="" id="playerOne" name="playerOne">
+  <option class="rock" value="rock">Rock</option>
+  <option value="paper">Paper</option>
+  <option value="scissors">Scissors</option>
+</select>
+
+<h2>Human Player Two</h2>
+<select class="" id="playerTwo" name="playerTwo">
+  <option class="rock" value="rock">Rock</option>
+  <option value="paper">Paper</option>
+  <option value="scissors">Scissors</option>
+</select>
+
+<h2>Computer Player</h2>
+<select class="" name="computer">
+  <option value="false"></option>
+  <option value="true">Yes</option>
+</select>
+
+<button class="btn" type="submit">Play!</button>
+</form>
+
+<!-- The default operation of forms is to submit the entries/inputs into the server/URL directly and continuosly. JQuery uses "event.preventDefault to prevent this default operation and grabs the inputs manually in the UI logic. Java assigns the the key (select:name) to the value (option:value) and sends it to the url which is typically displayed in the url path when the form is submitted" -->
+
+<!-- You should test for invalid inputs in testing -->

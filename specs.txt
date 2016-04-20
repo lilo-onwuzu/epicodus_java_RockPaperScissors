@@ -5,3 +5,5 @@ Scissors beat paper
 Paper beats rock
 
 Ties play again
+
+Computer chooses random move (rock, paper, or scissors)
