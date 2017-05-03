@@ -5,7 +5,7 @@
 	Lilo Onwuzu 
 	
 #### _Date_
-	04.22.2016
+	04.20.2016
 
 #### _Description_
 	This site presents a game of Rock Paper Scissors.
