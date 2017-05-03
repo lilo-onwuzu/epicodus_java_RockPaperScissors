@@ -9,7 +9,8 @@
 
 #### _Description_
 	This site presents a game of Rock Paper Scissors.
-	User can play with another user or with random moves from the computer.
+	User can play with another user or with random moves (rock, paper, or scissors) from the computer.
+	Rock beats scissors. Scissors beat paper. Paper beats rock. Ties play again.
 	Restful web pages are routered and rendered through the Spark Framework. 
 	Velocity tool is used to create html (with lightweight java code) templates for our Spark routines (get/post etc).
 	VelocityTemplateEngine is used as an adapter to add Velocity templates to our Spark routines.	
