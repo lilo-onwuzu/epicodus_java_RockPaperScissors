@@ -1,5 +1,5 @@
 ## _Title_
-	Epicodus- Java - Word Puzzle
+	Epicodus- Java - Rock Paper Scissors
 	
 #### _Creator_
 	Lilo Onwuzu 
@@ -8,11 +8,8 @@
 	04.22.2016
 
 #### _Description_
-	This site presents a game with two players: Guesser and Coordinator. 
-	In the home page, the Coordinator inputs a string of word(s). 
-	In the next page (/showPuzzle), a new string is shown with the vowels in the Coordinator's string hidden. 
-	Guesser then inputs a string to try to guess the coordinators string. 
-	If it matches, the Guesser wins the game. If not, the Coordinator wins. 
+	This site presents a game of Rock Paper Scissors.
+	User can play with another user or with random moves from the computer.
 	Restful web pages are routered and rendered through the Spark Framework. 
 	Velocity tool is used to create html (with lightweight java code) templates for our Spark routines (get/post etc).
 	VelocityTemplateEngine is used as an adapter to add Velocity templates to our Spark routines.	
